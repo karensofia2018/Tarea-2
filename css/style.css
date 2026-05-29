@@ -1,0 +1,88 @@
+body{
+  font-family:fantasy;
+  font-size: 100%;
+  background-color: #7983e8;
+}
+/*
+li {
+    display: inline-block;
+    width: 27%;
+    text-align: center;
+    height: 100px;
+    background: aqua;
+    line-height: 100px;
+} 
+*/
+header {
+    background-color: #d57171;
+    border-radius: 10px;
+    
+}
+nav {
+  background-color: #7dc73c;
+  display: inline-block;
+  width: 80%;
+}
+nav img {
+  width: 10%;
+}
+main {
+  background-color: #e8e86c;
+  font-family: cursive;
+  border-radius: 45px;
+    
+}
+footer {
+  background-color: #35a854;
+}
+h1 {
+  text-align:right;
+  font-family: cursive;
+  color:blue;
+}
+p {
+  line-height: 5.0;
+}
+div{
+  display:flex;
+  flex-wrap:column;
+}
+a:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(239, 15, 4);
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:focus {
+  color: rgb(35, 15, 167);
+  background-color: transparent;
+  text-decoration: underline;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 20px;
+}
+.grid img {
+    width: 100%;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex img {
+    width: 30%;
+}
